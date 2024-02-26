@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #09101e
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #091220;
+}
+
+header .menu__container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu__container .menu__link {
+    height: 22px;
+    width: 90px;
+    align-items: center;
+}
+
+header .menu__container .menu__link a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+main {
+    max-width: 1146px;
+    padding-top: 160px;
+    margin: 0 auto;
+}
+
+main .text__rocket {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+main .text__rocket .text__ai {
+    width: 600px;
+}
+
+main .text__rocket .text__ai h5 {
+    text-transform: uppercase;
+    color: #3A68B8;
+    font-size: 18px;
+}
+
+main .text__rocket .text__ai h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+main .text__rocket .text__ai p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+main .text__rocket .text__ai button {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #3A68B8;
+    padding: 12px 22px;
+    margin-top: 40px;
+    border: 0;
+    margin-right: 16px;
+}
+
+main .text__rocket .text__ai button img {
+    height: 16px;
+    width: 14px;
+    min-height: 16px;
+    min-width: 14px;
+    margin-right: 10px;
+}
+
+main .text__rocket .img {
+    height: 415px;
+    width: 415px;
+}
+
+main .text__rocket .img img {
+    height: 100%;
+    width: 100%;
+}
+
+main .logo {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+main .logo .img1 {
+    height: 60px;
+    width: 218px;
+    min-height: 60px;
+    min-width: 218px;
+}
+
+main .logo .img1 img {
+    height: 100%;
+    width: 100%;
+}
+
+main .logo .img2 {
+    height: 60px;
+    width: 212px;
+    min-height: 60px;
+    min-width: 212px;
+}
+
+main .logo .img2 img {
+    height: 100%;
+    width: 100%;
+}
+
+main .logo .img3 {
+    height: 60px;
+    width: 207px;
+    min-height: 60px;
+    min-width: 207px;
+}
+
+main .logo .img3 img {
+    height: 100%;
+    width: 100%;
+}
+
+main .logo .img4 {
+    height: 60px;
+    width: 295px;
+    min-height: 60px;
+    min-width: 295px;
+}
+
+main .logo .img4 img {
+    height: 100%;
+    width: 100%;
+}
