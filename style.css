@@ -39,6 +39,7 @@ main .top {
     max-width: 1146px;
     padding-top: 160px;
     margin: 0 auto;
+
 }
 
 main .top .text__rocket {
@@ -47,6 +48,7 @@ main .top .text__rocket {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 60px;
+    justify-content: center;
 }
 
 main .top .text__rocket .text__ai {
@@ -69,7 +71,6 @@ main .top .text__rocket .text__ai h1 {
     font-weight: 800;
     line-height: 72px;
     margin-top: 10px;
-    margin-right: 40px;
 }
 
 main .top .text__rocket .text__ai p {
@@ -78,7 +79,7 @@ main .top .text__rocket .text__ai p {
     font-weight: 600;
     opacity: 70%;
     margin-top: 40px;
-    margin-right: 60px;
+    margin-right: 40px;
     line-height: 29px;
 }
 
@@ -103,8 +104,8 @@ main .top .text__rocket .text__ai button img {
 }
 
 main .top .text__rocket .img {
-    height: 415px;
-    width: 415px;
+    max-height: 415px;
+    max-width: 415px;
 }
 
 main .top .text__rocket .img img {
@@ -125,7 +126,7 @@ main .top__logo .logo {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 70px;
 }
 
 main .top__logo .logo .img1 {
@@ -193,6 +194,7 @@ main .top__content .top2__brain .text__brain {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 main .top__content .top2__brain .text__brain .text__br {
@@ -200,8 +202,8 @@ main .top__content .top2__brain .text__brain .text__br {
 }
 
 main .top__content .top2__brain .text__brain .img {
-    height: 550px;
-    width: 600px;
+    max-height: 550px;
+    max-width: 600px;
 }
 
 main .top__content .top2__brain .text__brain .img img {
@@ -210,11 +212,8 @@ main .top__content .top2__brain .text__brain .img img {
 }
 
 main .top__content .top2__brain .text__brain .text__br {
-    max-width: 485px;
-    margin-right: 0px;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    max-width: 540px;
+    justify-content: center;
 }
 
 main .top__content .top2__brain .text__brain .text__br h1 {
@@ -222,6 +221,7 @@ main .top__content .top2__brain .text__brain .text__br h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
+    margin-top: 50px;
 }
 
 main .top__content .top2__brain .text__brain .text__br p {
@@ -314,8 +314,8 @@ main .top__content .top2__bloks2 .bloks2 .blok2 {
 }
 
 main .top__content .top2__bloks2 .bloks2 .blok2 img {
-    width: 306px;
-    height: 322px;
+    max-width: 306px;
+    max-height: 322px;
     margin: 30px 219px;
 }
 
@@ -387,6 +387,11 @@ main .footer {
     max-width: 1146px;
     padding-top: 50px;
     margin: 0 auto;
+    font-family: Roboto;
+    color: white;
+    margin-bottom: 45px;
+    justify-content: flex-start;
+
 
 }
 
@@ -400,18 +405,61 @@ main .footer .footer__bar {
 
 .footer__left {
     width: 362px;
-    margin: auto;
+    margin: 30px 30px;
 }
 
 .footer__center {
     width: 362px;
-    margin: auto;
+    margin: 30px 30px;
 
 }
 
 .footer__right {
     width: 362px;
-    margin: auto;
+    margin: 30px 30px;
 }
 
-@media {}
+main .footer h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+main .footer .footer__center p {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 60%;
+
+}
+
+main .footer .img {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer .contact {
+    margin-top: 25px;
+}
+
+.footer__right .links {
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .top2__bloks2 {
+        display: none;
+    }
+
+    main .top__content .top2__bloks1 .bloks1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
